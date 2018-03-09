@@ -1,7 +1,6 @@
 import urllib.request
 
-link = r'https://www.instagram.com/justmegawatt/'
+username = ''
+link = r'https://www.instagram.com/' + username
 html = urllib.request.urlopen(link)
 print(html.read())
-
-#Test Comment
